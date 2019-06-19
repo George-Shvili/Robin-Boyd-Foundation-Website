@@ -1,0 +1,35 @@
+body {
+    background-color: #99cc00; 
+    color: #ffffff;
+}
+
+header {
+    background-color: firebrick;
+    height: 200px;
+    width: 800px;
+    margin: 100px;
+    padding: 20px;
+}
+
+h1 {
+    background-color: pink;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+/*    display: inline-block;*/
+}
+
+nav {
+    background-color: dodgerblue;
+    border: 2px dashed white; 
+    width: 500px;
+    float: right; 
+}
+
+Main {
+    background-color: darkolivegreen;
+}
+
+footer {
+    background-color: darkcyan;
+}
