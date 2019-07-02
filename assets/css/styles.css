@@ -70,7 +70,8 @@ h3 {
 main p {
     color: 282828;
     font-size: 14px;
-    line-height: 18px;
+    text-align: justify;
+    line-height: 26px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -79,6 +80,7 @@ main p {
 }
 
 .text-container {
+    
     /*    width: 70%;*/
 }
 
@@ -133,6 +135,7 @@ nav {
     background-color: #DFDFCF;
     text-align: center;
     text-transform: uppercase;
+    border-radius: 20px;
     padding: 10px;
     margin-top: 50px;
     /*        border: 2px outset #89751c;*/
@@ -185,6 +188,7 @@ nav ul li a:visited {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    border-radius: 20px;
     /*    background-color: aqua*/
 }
 
@@ -192,6 +196,7 @@ Main {
     /*    background-color: darkolivegreen;*/
     background-color: #DFDFCF;
     overflow: auto;
+    border-radius: 20px;
     text-align: left;
     padding: 20px;
     margin-bottom: 20px;
@@ -203,7 +208,8 @@ Main {
 .leftimg {
     background-color: #ebebe0;
     width: 65%;
-    border: 3px outset #89751c;
+    border: 2px solid #89751c;
+    border-radius: 10px;
     padding: 10px;
     margin: 20px 150px;
     /*    float: right;*/
@@ -212,6 +218,7 @@ Main {
 footer {
     background-color: #DFDFCF;
     text-align: center;
+    border-radius: 20px;
     padding: 30px;
     border-top: 2px solid #89751c
 }
