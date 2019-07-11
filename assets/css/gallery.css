@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Nunito:400,600&display=swap');
+
+body {
+    background-color: #F2F2ED;
+    color: #282828;
+
+    /*    make sure you set family and size on body*/
+    /*    font family has order, 1st and then fall backs*/
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+}
+
+.wrapper {
+    width: 980px;
+    /*    TOP RIGHT BOTTOM LEFT*/
+    margin: 30px auto 30px auto;
+
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+.mainlogo {
+    width: 130px;
+    margin-left: 30px;
+
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*main containers*/
+
+header {
+    /*    background-color: firebrick;*/
+    margin-bottom: 20px;
+    /*    padding: 20px;*/
+    /*    height: 180px;*/
+    /*    width: 800px;*/
+    /*    margin-left: 100px;*/
+}
+
+Main {
+    /*    background-color: darkolivegreen;*/
+    background-color: #EAEAE2;
+    overflow: auto;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    /*    width: 800px;*/
+    /*    margin-left: 100px;*/
+
+}
+
+footer {
+    background-color: #EAEAE2;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    /*    border-top: 2px solid #89751c*/
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/* Headings*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito', sans-serif;
+}
+
+/*robin boyd heading*/
+h1 {
+    color: #89751c;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 2px solid #89751c;
+    /*    padding-bottom: 60px;*/
+    /*    width: 200px;*/
+    /*        margin-left: 365px;*/
+    /*    background-color: pink;*/
+    /*    font-weight: bold;*/
+    /*        display: inline-block;*/
+}
+
+/*introduction*/
+h2 {
+    color: #89751c;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /*    border-bottom: 1px solid white;*/
+    /*    background-color: aqua;*/
+    /*    font-weight: bold;*/
+
+}
+
+/*
+h3 {
+    font-size: 18px;
+    text-align: center;
+
+}
+*/
+
+/*headings end*/
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*paragraph*/
+
+main p {
+    color: 282828;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 26px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*typography end*/
+
+}
+
+.text-container {
+    /*    width: 70%;*/
+}
+
+/*paragraphs end*/
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*navigation items*/
+
+nav {
+    /*    background-color: dodgerblue;*/
+    background-color: #EAEAE2;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    /*        border: 2px outset #89751c;*/
+    /*        width: 980px;*/
+    /*    margin-left: 365px;*/
+    /*    float: left; */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+nav ul li a {
+    color: #282828;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    padding: 1px 10px;
+    margin: 1px 6px;
+    /*    padding: 10px 15px;*/
+    /*    background-color: antiquewhite;*/
+
+
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #89751c;
+    /*    background-color: aqua;*/
+
+}
+
+nav ul li a.currentpage {
+    text-decoration: none;
+    border-bottom: 1px solid #89751c;
+    font-weight: bold;
+    /*    font-weight: bold;*/
+
+}
+
+nav ul li a:visited {
+    color: 282828;
+}
+
+/*navigation end*/
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*anchor style*/
+
+/*color of defult link - untouched*/
+a {
+    color: #89751c;
+    text-decoration: none;
+    /*    background-color: black;*/
+}
+
+/*hovered over the link*/
+a:hover {
+    font-weight: bold;
+    /*    text-decoration: underline;*/
+}
+
+/*link appearance after being visited*/
+a:visited {
+    /*    color: darkgrey;*/
+}
+
+/*holding the link down*/
+a:active {
+    color: black;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*images*/
+
+
+

@@ -12,13 +12,67 @@ body {
 
 }
 
+.wrapper {
+    width: 980px;
+    /*    TOP RIGHT BOTTOM LEFT*/
+    margin: 30px auto 30px auto;
+
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
 .mainlogo {
     width: 130px;
     margin-left: 30px;
 
 }
 
-/* typography*/
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*main containers*/
+
+header {
+    /*    background-color: firebrick;*/
+    margin-bottom: 20px;
+    /*    padding: 20px;*/
+    /*    height: 180px;*/
+    /*    width: 800px;*/
+    /*    margin-left: 100px;*/
+}
+
+Main {
+    /*    background-color: darkolivegreen;*/
+    background-color: #EAEAE2;
+    overflow: auto;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    /*    width: 800px;*/
+    /*    margin-left: 100px;*/
+
+}
+
+.boydpicinfo {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #89751c;
+}
+
+footer {
+    background-color: #EAEAE2;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    /*    border-top: 2px solid #89751c*/
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/* Headings*/
+
 h1,
 h2,
 h3,
@@ -61,14 +115,20 @@ h2 {
 
 }
 
-/*n/a ATM*/
+/*
 h3 {
     font-size: 18px;
     text-align: center;
 
 }
+*/
+
+/*headings end*/
+
+/*////////////////////////////////////////////////////////////////////////////////*/
 
 /*paragraph*/
+
 main p {
     color: 282828;
     font-size: 14px;
@@ -81,69 +141,17 @@ main p {
 
 }
 
+pre {
+    font-size: 14px;
+}
+
 .text-container {
-    
     /*    width: 70%;*/
 }
 
-.img-info-floor-plan {
-    text-align: center;
-    line-height: 50px;
-}
+/*paragraphs end*/
 
-.churchill-garden {
- min-height: 400px;
-    background-image: url(../images/Churchill%20Garden.3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    border-radius: 20px;
-
-}
-
-/*anchor style*/
-
-/*color of defult link - untouched*/
-a {
-    color: #89751c;
-    text-decoration: none;
-    /*    background-color: black;*/
-}
-
-/*hovered over the link*/
-a:hover {
-    font-weight: bold;
-    /*    text-decoration: underline;*/
-}
-
-/*link appearance after being visited*/
-a:visited {
-    /*    color: darkgrey;*/
-}
-
-/*holding the link down*/
-a:active {
-    color: black;
-}
-
-
-/*main containers*/
-
-.wrapper {
-    width: 980px;
-    /*    TOP RIGHT BOTTOM LEFT*/
-    margin: 30px auto 30px auto;
-
-}
-
-header {
-    /*    background-color: firebrick;*/
-    margin-bottom: 20px;
-/*    padding: 20px;*/
-    /*    height: 180px;*/
-    /*    width: 800px;*/
-    /*    margin-left: 100px;*/
-}
+/*////////////////////////////////////////////////////////////////////////////////*/
 
 /*navigation items*/
 
@@ -199,31 +207,67 @@ nav ul li a:visited {
     color: 282828;
 }
 
-
 /*navigation end*/
 
-.hero {
-    min-height: 275px;
-    background-image: url(../images/churchill_banner.png);
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*anchor style*/
+
+/*color of defult link - untouched*/
+a {
+    color: #89751c;
+    text-decoration: none;
+    /*    background-color: black;*/
+}
+
+/*hovered over the link*/
+a:hover {
+    font-weight: bold;
+    /*    text-decoration: underline;*/
+}
+
+/*link appearance after being visited*/
+a:visited {
+    /*    color: darkgrey;*/
+}
+
+/*holding the link down*/
+a:active {
+    color: black;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*images*/
+
+.churchill-garden-info {
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.churchill-garden {
+    min-height: 400px;
+    background-image: url(../images/Churchill%20Garden.4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     border-radius: 20px;
-    /*    background-color: aqua*/
+
 }
 
-Main {
-    /*    background-color: darkolivegreen;*/
-    background-color: #EAEAE2;
-    overflow: auto;
+/*
+.hero {
+    min-height: 275px;
+    background-image: url(../images/extra2-robin%20boyd%20portrait%20copyright%20Mark%20Strizic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
     border-radius: 20px;
-    text-align: left;
-    padding: 20px;
-    margin-bottom: 20px;
-    /*    width: 800px;*/
-    /*    margin-left: 100px;*/
-
+        background-color: aqua
 }
+*/
 
 .leftimg {
     background-color: #ebebe0;
@@ -235,10 +279,10 @@ Main {
     /*    float: right;*/
 }
 
-footer {
-    background-color: #EAEAE2;
-    text-align: center;
+.boydpic {
+    width: 600px;
+    margin-left: 175px;
+    margin-bottom: 0px;
     border-radius: 20px;
-    padding: 30px;
-/*    border-top: 2px solid #89751c*/
 }
+
