@@ -15,7 +15,7 @@ body {
 .wrapper {
     width: 980px;
     /*    TOP RIGHT BOTTOM LEFT*/
-    margin: 30px auto 30px auto; 
+    margin: 30px auto 30px auto;
 
 }
 
@@ -26,6 +26,92 @@ body {
     margin-left: 30px;
 
 }
+
+.left {
+    width: 40%;
+    float: left;
+    margin-left: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+
+.right {
+    width: 40%;
+    float: right;
+    margin-right: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.sbsinfo {
+    text-align: center;
+    margin-top: 440px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    
+}
+
+.churchillfloorplan {
+    width: 580px;
+    margin-left: 170px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+
+.floorplaninfo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    
+}
+
+.cross-section-north {
+    width: 800px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.cross-section-n-info {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+.cross-section-west {
+    width: 800px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.cross-section-w-info {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+.north-bourne-av {
+    width: 600px;
+    margin-left: 170px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.north-bourne-av-info {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    
+}
+
+
 
 /*////////////////////////////////////////////////////////////////////////////////*/
 
@@ -52,6 +138,7 @@ Main {
     /*    margin-left: 100px;*/
 
 }
+
 
 footer {
     background-color: #EAEAE2;
@@ -108,13 +195,14 @@ h2 {
 
 }
 
-/*
 h3 {
+    color: #89751c;
     font-size: 18px;
     text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 
 }
-*/
 
 /*headings end*/
 
@@ -134,7 +222,9 @@ main p {
 
 }
 
-    
+pre {
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .text-container {
@@ -233,7 +323,7 @@ a:active {
 
 /*images*/
 
-.churchill-garden-info {
+.gallerylink {
     text-align: center;
     line-height: 30px;
     margin-top: 10px;
@@ -249,15 +339,17 @@ a:active {
 
 }
 
+/*
 .hero {
     min-height: 275px;
-    background-image: url(../images/churchill_banner.png);
+    background-image: url(../images/extra2-robin%20boyd%20portrait%20copyright%20Mark%20Strizic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     border-radius: 20px;
-    /*    background-color: aqua*/
+        background-color: aqua
 }
+*/
 
 .leftimg {
     background-color: #ebebe0;
@@ -268,4 +360,12 @@ a:active {
     margin: 20px 150px 5px;
     /*    float: right;*/
 }
+
+.boydpic {
+    width: 600px;
+    margin-left: 175px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+}
+
 

@@ -143,6 +143,7 @@ main p {
 
 pre {
     font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .text-container {
@@ -285,4 +286,5 @@ a:active {
     margin-bottom: 0px;
     border-radius: 20px;
 }
+
 
