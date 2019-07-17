@@ -15,45 +15,100 @@ body {
     margin: 30px auto 30px auto;
 }
 
-/*////////////////////////IMAGES/SUPPORTING IMG TEXT////////////////////////////*/
+/*////////////////////////IMAGES/IMG-INFO////////////////////////////////*/
 
 .mainlogo {
     width: 130px;
     margin-left: 30px;
 }
 
-/*//////////////////////////////////PARALLAX///////////////////////////////////*/
-
-.container-parallax {
-    max-width: 100%;
-    margin: 0;
-    margin-bottom: 25px;
-    margin-top: 25px;
+.left {
+    width: 40%;
+    float: left;
+    margin-left: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
-.parallax {
-    background: url(../images/churchill_banner.2.png) no-repeat center;
-    background-size: 70%;
-    background-attachment: fixed;
-    height: 280px;
+.right {
+    width: 40%;
+    float: right;
+    margin-right: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.external-features {
+    width: 580px;
+    margin-left: 170px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.img-text {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.cross-section-north {
+    width: 800px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.cross-section-west {
+    width: 800px;
+    margin-left: 70px;
     border-radius: 20px;
 }
 
-.parallax2 {
-    background: url(../images/churchill-%20Garden.png) no-repeat center;
-    background-size: 68%;
-    background-attachment: fixed;
-    height: 400px;
-    border-radius: 20px;
+.sbsinfo {
+    text-align: center;
+    margin-top: 440px;
+    margin-bottom: 30px;
+    font-size: 13px;
 }
 
-.img-support-text {
+.banner-support-text {
     text-align: center;
     line-height: 30px;
     margin-top: 10px;
 }
 
-/*////////////////////////////////MAIN CONTAINERS////////////////////////////////////*/
+/*//////////////////////////////PARALAX EDIT/////////////////////////////////////*/
+.container-parallax {
+    max-width: 980px;
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.parallax {
+    background: url(../images/jj-slide-14.jpg) no-repeat center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 100px;
+    border-radius: 20px;
+
+}
+
+.parallax2 {
+    background: url(../images/jj-slide-14.jpg) no-repeat center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 300px;
+    border-radius: 20px;
+
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*main containers*/
 
 header {
     margin-bottom: 20px;
@@ -61,11 +116,12 @@ header {
 
 Main {
     background-color: #EAEAE2;
-    text-align: left;
     overflow: auto;
     border-radius: 20px;
+    text-align: left;
     padding: 20px;
     margin-bottom: 20px;
+
 }
 
 footer {
@@ -76,7 +132,7 @@ footer {
     margin-top: 20px;
 }
 
-/*/////////////////////////////////////////HEADINGS//////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////*/
 
 h1,
 h2,
@@ -90,16 +146,16 @@ h6 {
 /*robin boyd heading*/
 h1 {
     color: #89751c;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
     font-size: 40px;
+    text-transform: uppercase;
     letter-spacing: 5px;
+    text-decoration: none;
+    text-align: center;
     padding-top: 20px;
     border-bottom: 2px solid #89751c;
 }
 
-/*introduction*/
+/*history-and-significance*/
 h2 {
     color: #89751c;
     font-size: 25px;
@@ -110,7 +166,16 @@ h2 {
     padding-top: 10px;
 }
 
-/*////////////////////////////////////PARAGRAPHS///////////////////////////////////////*/
+h3 {
+    color: #89751c;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+/*/////////////////////////////////PARAGRAPH//////////////////////////////////////*/
 
 main p {
     color: 282828;
@@ -120,19 +185,23 @@ main p {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    /*typography end*/
 }
 
-/*//////////////////////////////NAVIGATION ITEMS////////////////////////////*/
+pre {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/*//////////////////////////////////////NAVIGATION ITEMS////////////////////////*/
 
 nav {
     background-color: #EAEAE2;
     text-align: center;
     text-transform: uppercase;
+    border-radius: 15px;
     padding: 10px;
     margin-top: 30px;
     margin-bottom: 40px;
-    border-radius: 15px;
 }
 
 nav ul li {
@@ -148,7 +217,7 @@ nav ul li a {
     margin: 1px 6px;
 }
 
-nav ul li a: over {
+nav ul li a:hover {
     text-decoration: none;
     border-bottom: 1px solid #89751c;
 }
@@ -163,17 +232,24 @@ nav ul li a:visited {
     color: 282828;
 }
 
-/*//////////////////////////ANCHOR STYLE///////////////////////////////*/
+/*//////////////////ANCHOR STYLES//////////////////////////////*/
 
 /*color of defult link - untouched*/
 a {
     color: #89751c;
     text-decoration: none;
+    /*    background-color: black;*/
 }
 
-/*hovered over*/
+/*hovered over the link*/
 a:hover {
     font-weight: bold;
+    /*    text-decoration: underline;*/
+}
+
+/*link appearance after being visited*/
+a:visited {
+    /*    color: darkgrey;*/
 }
 
 /*holding the link down*/

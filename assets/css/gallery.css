@@ -3,55 +3,165 @@
 body {
     background-color: #F2F2ED;
     color: #282828;
-
     /*    make sure you set family and size on body*/
     /*    font family has order, 1st and then fall backs*/
-
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-
 }
 
 .wrapper {
     width: 980px;
     /*    TOP RIGHT BOTTOM LEFT*/
     margin: 30px auto 30px auto;
-
 }
 
-/*////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////PHOTO SLIDES/PHOTO INFO//////////////////////////////////*/
 
 .mainlogo {
     width: 130px;
     margin-left: 30px;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    
+    10% {
+        left: 0; 
+    }
+    
+    15% {
+        left: -100%;
+    }
+    
+    25% {
+        left: -100%;
+    }
+    
+    30% {
+        left: -200%;
+    }
+    
+    40% {
+        left: -200%;
+    }
+    
+    45% {
+        
+        left: -300%;
+    }
+    
+    55% {
+        
+        left: -300%;
+    }
+    
+    60% {
+        left: -400%
+    }
+    
+    70% {
+        left: -400%;
+    }
+    
+    75% {
+        
+        left: -500%;
+    }
+    
+    85% {
+        
+        left: -500%;
+    }
+    
+    90% {
+        
+        left: -600%;
+    }
+
+    100% {
+        left: -600%
+    }
 
 }
 
-/*////////////////////////////////////////////////////////////////////////////////*/
+#slider {
+    overflow: hidden;
+    border-radius: 20px;
+}
 
-/*main containers*/
+#slider figure img {
+    width: 14.2854%;
+    float: left;
+    border-radius: 20px;
+    }
+
+#slider figure {
+    position: relative;
+    width: 700%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite;
+   }
+
+.img-info {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 18px;
+
+}
+
+.img-info-2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+}
+
+/*//////////////////////////////////PARALLAX/////////////////////////////////////////*/
+
+.container-parallax {
+    max-width: 980px;
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.parallax2 {
+    background: url(../images/jj-banner-2.jpg) no-repeat center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+
+.img-support-text {
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+}
+/*///////////////////////MAIN CONTAINERS///////////////////////////////*/
 
 header {
-    /*    background-color: firebrick;*/
     margin-bottom: 20px;
-    /*    padding: 20px;*/
-    /*    height: 180px;*/
-    /*    width: 800px;*/
-    /*    margin-left: 100px;*/
 }
 
 Main {
-    /*    background-color: darkolivegreen;*/
     background-color: #EAEAE2;
     overflow: auto;
     border-radius: 20px;
     text-align: left;
     padding: 20px;
     margin-bottom: 20px;
-    /*    width: 800px;*/
-    /*    margin-left: 100px;*/
-
-}
+    }
 
 footer {
     background-color: #EAEAE2;
@@ -59,12 +169,9 @@ footer {
     border-radius: 20px;
     padding: 30px;
     margin-top: 20px;
-    /*    border-top: 2px solid #89751c*/
-}
+    }
 
-/*////////////////////////////////////////////////////////////////////////////////*/
-
-/* Headings*/
+/*///////////////////////////HEADINGS///////////////////////////////////*/
 
 h1,
 h2,
@@ -85,15 +192,9 @@ h1 {
     text-align: center;
     padding-top: 20px;
     border-bottom: 2px solid #89751c;
-    /*    padding-bottom: 60px;*/
-    /*    width: 200px;*/
-    /*        margin-left: 365px;*/
-    /*    background-color: pink;*/
-    /*    font-weight: bold;*/
-    /*        display: inline-block;*/
-}
+   }
 
-/*introduction*/
+/*gallery*/
 h2 {
     color: #89751c;
     font-size: 25px;
@@ -102,25 +203,9 @@ h2 {
     margin-bottom: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
-    /*    border-bottom: 1px solid white;*/
-    /*    background-color: aqua;*/
-    /*    font-weight: bold;*/
+    }
 
-}
-
-/*
-h3 {
-    font-size: 18px;
-    text-align: center;
-
-}
-*/
-
-/*headings end*/
-
-/*////////////////////////////////////////////////////////////////////////////////*/
-
-/*paragraph*/
+/*/////////////////////////////////////PARAGRAPH///////////////////////////////////*/
 
 main p {
     color: 282828;
@@ -130,22 +215,11 @@ main p {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    /*typography end*/
+    }
 
-}
-
-.text-container {
-    /*    width: 70%;*/
-}
-
-/*paragraphs end*/
-
-/*////////////////////////////////////////////////////////////////////////////////*/
-
-/*navigation items*/
+/*/////////////////////////////////////NAVIGATION ITEMS////////////////////////////*/
 
 nav {
-    /*    background-color: dodgerblue;*/
     background-color: #EAEAE2;
     text-align: center;
     text-transform: uppercase;
@@ -153,11 +227,7 @@ nav {
     padding: 10px;
     margin-top: 30px;
     margin-bottom: 40px;
-    /*        border: 2px outset #89751c;*/
-    /*        width: 980px;*/
-    /*    margin-left: 365px;*/
-    /*    float: left; */
-}
+  }
 
 nav ul li {
     display: inline;
@@ -171,64 +241,38 @@ nav ul li a {
     text-decoration: none;
     padding: 1px 10px;
     margin: 1px 6px;
-    /*    padding: 10px 15px;*/
-    /*    background-color: antiquewhite;*/
-
-
-}
+  }
 
 nav ul li a:hover {
     text-decoration: none;
     border-bottom: 1px solid #89751c;
-    /*    background-color: aqua;*/
-
-}
+  }
 
 nav ul li a.currentpage {
     text-decoration: none;
     border-bottom: 1px solid #89751c;
     font-weight: bold;
-    /*    font-weight: bold;*/
-
 }
 
 nav ul li a:visited {
     color: 282828;
 }
 
-/*navigation end*/
-
-/*////////////////////////////////////////////////////////////////////////////////*/
-
-
-/*anchor style*/
+/*///////////////////////ANCHOR STYLE///////////////////////////////*/
 
 /*color of defult link - untouched*/
 a {
     color: #89751c;
     text-decoration: none;
-    /*    background-color: black;*/
 }
 
 /*hovered over the link*/
 a:hover {
     font-weight: bold;
-    /*    text-decoration: underline;*/
-}
-
-/*link appearance after being visited*/
-a:visited {
-    /*    color: darkgrey;*/
 }
 
 /*holding the link down*/
 a:active {
     color: black;
 }
-
-/*////////////////////////////////////////////////////////////////////////////////*/
-
-/*images*/
-
-
 

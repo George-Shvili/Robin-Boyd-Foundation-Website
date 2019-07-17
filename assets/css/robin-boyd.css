@@ -3,62 +3,87 @@
 body {
     background-color: #F2F2ED;
     color: #282828;
-
     /*    make sure you set family and size on body*/
     /*    font family has order, 1st and then fall backs*/
-
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-
 }
 
 .wrapper {
     width: 980px;
     /*    TOP RIGHT BOTTOM LEFT*/
     margin: 30px auto 30px auto;
-
 }
 
-/*////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////IMAGES/SUPPORTING TEXT//////////////////////////////*/
 
 .mainlogo {
     width: 130px;
     margin-left: 30px;
-
 }
 
-/*////////////////////////////////////////////////////////////////////////////////*/
-
-/*main containers*/
-
-header {
-    /*    background-color: firebrick;*/
-    margin-bottom: 20px;
-    /*    padding: 20px;*/
-    /*    height: 180px;*/
-    /*    width: 800px;*/
-    /*    margin-left: 100px;*/
-}
-
-Main {
-    /*    background-color: darkolivegreen;*/
-    background-color: #EAEAE2;
-    overflow: auto;
+.boyd-profile {
+    width: 600px;
+    margin-left: 175px;
+    margin-bottom: 0px;
     border-radius: 20px;
-    text-align: left;
-    padding: 20px;
-    margin-bottom: 20px;
-    /*    width: 800px;*/
-    /*    margin-left: 100px;*/
-
 }
 
-.boydpicinfo {
+.boyd-profile-info {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 30px;
     color: #89751c;
 }
+
+.banner-support-text {
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+}
+/*//////////////////////////////////PARRALAX EDIT////////////////////////////////////// */
+
+.container-parallax {
+    max-width: 980px;
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.parallax {
+    background: url(../images/jj-slide-14.jpg) no-repeat center;
+    background-size: 70%;
+    background-attachment: fixed;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+.parallax2 {
+    background: url(../images/jj-banner-2.jpg) no-repeat center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+
+/*//////////////////////////MAIN CONTAINERS/////////////////////////*/
+
+header {
+    margin-bottom: 20px;
+}
+
+Main {
+      background-color: #EAEAE2;
+    overflow: auto;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+ }
 
 footer {
     background-color: #EAEAE2;
@@ -66,12 +91,9 @@ footer {
     border-radius: 20px;
     padding: 30px;
     margin-top: 20px;
-    /*    border-top: 2px solid #89751c*/
 }
 
-/*////////////////////////////////////////////////////////////////////////////////*/
-
-/* Headings*/
+/*/////////////////////////////HEADINGS///////////////////////////*/
 
 h1,
 h2,
@@ -92,15 +114,9 @@ h1 {
     text-align: center;
     padding-top: 20px;
     border-bottom: 2px solid #89751c;
-    /*    padding-bottom: 60px;*/
-    /*    width: 200px;*/
-    /*        margin-left: 365px;*/
-    /*    background-color: pink;*/
-    /*    font-weight: bold;*/
-    /*        display: inline-block;*/
-}
+    }
 
-/*introduction*/
+/*Robin Boyd*/
 h2 {
     color: #89751c;
     font-size: 25px;
@@ -109,21 +125,7 @@ h2 {
     margin-bottom: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
-    /*    border-bottom: 1px solid white;*/
-    /*    background-color: aqua;*/
-    /*    font-weight: bold;*/
-
-}
-
-/*
-h3 {
-    font-size: 18px;
-    text-align: center;
-
-}
-*/
-
-/*headings end*/
+ }
 
 /*////////////////////////////////////////////////////////////////////////////////*/
 
@@ -146,18 +148,11 @@ pre {
     margin-bottom: 10px;
 }
 
-.text-container {
-    /*    width: 70%;*/
-}
-
-/*paragraphs end*/
-
 /*////////////////////////////////////////////////////////////////////////////////*/
 
 /*navigation items*/
 
 nav {
-    /*    background-color: dodgerblue;*/
     background-color: #EAEAE2;
     text-align: center;
     text-transform: uppercase;
@@ -165,11 +160,7 @@ nav {
     padding: 10px;
     margin-top: 30px;
     margin-bottom: 40px;
-    /*        border: 2px outset #89751c;*/
-    /*        width: 980px;*/
-    /*    margin-left: 365px;*/
-    /*    float: left; */
-}
+    }
 
 nav ul li {
     display: inline;
@@ -183,108 +174,41 @@ nav ul li a {
     text-decoration: none;
     padding: 1px 10px;
     margin: 1px 6px;
-    /*    padding: 10px 15px;*/
-    /*    background-color: antiquewhite;*/
-
-
-}
+    }
 
 nav ul li a:hover {
     text-decoration: none;
     border-bottom: 1px solid #89751c;
-    /*    background-color: aqua;*/
-
-}
+    }
 
 nav ul li a.currentpage {
     text-decoration: none;
     border-bottom: 1px solid #89751c;
     font-weight: bold;
-    /*    font-weight: bold;*/
-
-}
+    }
 
 nav ul li a:visited {
     color: 282828;
 }
 
-/*navigation end*/
-
-/*////////////////////////////////////////////////////////////////////////////////*/
-
-
-/*anchor style*/
+/*///////////////////////ANCHOR STYLES/////////////////////////////////*/
 
 /*color of defult link - untouched*/
 a {
     color: #89751c;
     text-decoration: none;
-    /*    background-color: black;*/
-}
+    }
 
 /*hovered over the link*/
 a:hover {
     font-weight: bold;
-    /*    text-decoration: underline;*/
-}
+    }
 
 /*link appearance after being visited*/
 a:visited {
-    /*    color: darkgrey;*/
-}
+   }
 
 /*holding the link down*/
 a:active {
     color: black;
 }
-
-/*////////////////////////////////////////////////////////////////////////////////*/
-
-/*images*/
-
-.churchill-garden-info {
-    text-align: center;
-    line-height: 30px;
-    margin-top: 10px;
-}
-
-.churchill-garden {
-    min-height: 400px;
-    background-image: url(../images/Churchill%20Garden.4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    border-radius: 20px;
-
-}
-
-/*
-.hero {
-    min-height: 275px;
-    background-image: url(../images/extra2-robin%20boyd%20portrait%20copyright%20Mark%20Strizic.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    border-radius: 20px;
-        background-color: aqua
-}
-*/
-
-.leftimg {
-    background-color: #ebebe0;
-    width: 65%;
-    border: 2px solid #89751c;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px 150px 5px;
-    /*    float: right;*/
-}
-
-.boydpic {
-    width: 600px;
-    margin-left: 175px;
-    margin-bottom: 0px;
-    border-radius: 20px;
-}
-
-
