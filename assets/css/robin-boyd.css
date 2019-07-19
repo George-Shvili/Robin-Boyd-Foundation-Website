@@ -15,6 +15,131 @@ body {
     margin: 30px auto 30px auto;
 }
 
+/*/////////////////////////////////MEDIA QUERIES/////////////////////////////////////*/
+
+/*Gave it a red hot crack but could not get this workng. Tried visiting multiple website and watched multiple videos but could not get it working. Leaving it hidden with comments above so you could see my thought process and see where I went wrong. Thanks!*/
+
+
+@media screen and (max-device-width: 979px){
+    
+/*    width property is set to a percentage and the height is set to "auto", the image will be responsive and scale up and down.*/
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+/*    Everything within the wrapper class 'boxes' are scaled down accordingly. */
+    .wrapper {
+        width: 90%;
+    }
+    
+/*    Different to img so was selected in its own class with the same concept*/
+    .container-parallax {
+        width: 100%;
+        height: auto;
+    }
+   
+/*    as this was not located within any anything edited by itself*/
+    .img-support-text {
+        font-size: 10px;
+         }
+    
+/*    not scaling for whatever reason*/
+    .banner-support-text {
+        font-size: 8px;
+        
+    }
+    
+    
+/*    Text located within these would be scaled down (changed to em and edited with px here) */
+    
+    header {
+        font-size: 12px;
+        }
+    
+    main {
+        font-size: 12px;
+            }
+    
+    footer {
+        font-size: 11px;
+           }
+    
+}
+
+@media screen and (max-device-width: 600px){
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .wrapper {
+        width: 90%;
+    }
+    
+    .container-parallax {
+        width: 90%;
+        height: auto;
+    }
+   
+    .img-support-text {
+        font-size: 6px;
+         }
+    
+    .banner-support-text {
+        font-size: 10px;
+        
+    }
+    
+    header {
+        font-size: 14px;
+        }
+    
+    main {
+        font-size: 12px;
+            }
+    
+    footer {
+        font-size: 11px;
+           }
+    
+}
+
+@media screen and (max-device-width: 375px){
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .wrapper {
+        width: 90%;
+    }
+    
+    .container-parallax {
+        width: 90%;
+        height: auto;
+    }
+   
+    .img-support-text {
+        font-size: 6px;
+         }
+    
+    header {
+        font-size: 25px;
+        }
+    
+    main {
+        font-size: 12px;
+            }
+    
+    footer {
+        font-size: 11px;
+           }
+    
+}
+
 /*////////////////////////IMAGES/SUPPORTING TEXT//////////////////////////////*/
 
 .mainlogo {
@@ -40,13 +165,13 @@ body {
     text-align: center;
     line-height: 30px;
     margin-top: 10px;
+    font-size: 1em
 }
 /*//////////////////////////////////PARRALAX EDIT////////////////////////////////////// */
 
 .container-parallax {
     max-width: 980px;
     margin: 0;
-    font-size: 24px;
     margin-bottom: 25px;
     margin-top: 25px;
 
@@ -68,6 +193,12 @@ body {
     height: 300px;
     border-radius: 20px;
     
+}
+
+.img-support-text {
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
 }
 
 /*//////////////////////////MAIN CONTAINERS/////////////////////////*/
@@ -107,7 +238,7 @@ h6 {
 /*robin boyd heading*/
 h1 {
     color: #89751c;
-    font-size: 40px;
+    font-size: 2.5em;
     text-transform: uppercase;
     letter-spacing: 5px;
     text-decoration: none;
@@ -119,7 +250,7 @@ h1 {
 /*Robin Boyd*/
 h2 {
     color: #89751c;
-    font-size: 25px;
+    font-size: 1.5625em;
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 20px;
@@ -133,7 +264,7 @@ h2 {
 
 main p {
     color: 282828;
-    font-size: 14px;
+    font-size: 0.875em;
     text-align: justify;
     line-height: 26px;
     margin-bottom: 20px;
@@ -144,7 +275,7 @@ main p {
 }
 
 pre {
-    font-size: 14px;
+    font-size: 0.875em;
     margin-bottom: 10px;
 }
 
@@ -154,6 +285,7 @@ pre {
 
 nav {
     background-color: #EAEAE2;
+    font-size: 1em;
     text-align: center;
     text-transform: uppercase;
     border-radius: 15px;
